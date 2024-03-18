@@ -8,7 +8,7 @@ from stable_baselines3.her.her_replay_buffer import HerReplayBuffer
 from stable_baselines3.ppo import PPO
 from stable_baselines3.sac import SAC
 from stable_baselines3.td3 import TD3
-from stable_baselines3.DoubleDQN import DoubleDQN
+from stable_baselines3.DoubleDQN import DOUBLEDQN
 
 
 # Read version from file
@@ -31,7 +31,7 @@ __all__ = [
     "PPO",
     "SAC",
     "TD3",
-    "DoubleDQN",
+    "DOUBLEDQN",
     "HerReplayBuffer",
     "get_system_info",
 ]
